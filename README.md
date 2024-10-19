@@ -15,3 +15,9 @@ As a data scientist employed by a competing startup, my role is to develop data-
 Accurately Predict the Likelihood of the First Stage Rocket Landing Successfully: Leverage data science and machine learning techniques to build models that predict the probability of the Falcon 9's first-stage landing. This prediction is critical in estimating the total cost of a rocket launch.
 
 Explore and Analyze the Data for Insights: Perform data exploration to uncover key patterns and insights that can provide a better understanding of the factors influencing the success of the rocket's first-stage landing, helping to optimize the model's predictions and provide actionable business intelligence.
+
+## Methodology:
+The data was sourced from the SpaceX public API and publicly available resources like Wikipedia. The data wrangling process involved extracting launch outcome information, which served as the target variable for the Machine Learning models. Various SQL queries and data visualizations—including static plots, interactive maps, and a dashboard—were employed to uncover key insights. Predictive analysis was conducted using four Machine Learning models: Logistic Regression, Support Vector Machine (SVM), Decision Tree, and k-Nearest Neighbors (KNN).
+
+## Results:
+The dataset, containing details such as flight number, launch date, payload mass, orbit type, launch site, and mission outcome, was thoroughly explored and visualized. Logistic Regression, SVM, and KNN models demonstrated similar performance in predicting launch outcomes.
